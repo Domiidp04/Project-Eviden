@@ -1,0 +1,4 @@
+INSERT INTO public.user_roles(
+	user_id, role_id)
+	VALUES (1, 1);
+El primer numero es el id del user que estes utilizando, el segundo es 1 ya que el id de rol admin es 1. Si te creas el user admin con otro id solo tienes que cambiar el valor del primer atributo.
